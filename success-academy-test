@@ -1,0 +1,10 @@
+# Note: PyGithub (available at https://pypi.python.org/pypi/PyGithub) should be installed before running this program.
+
+from github import Github
+
+# Enter one of the following lines of code, substituting either an access token for "token" or your username and password for "username, password":
+# g = Github(token)
+# g = Github(username, password)
+
+for repo in g.get_user(‘bboyajian’).get_repos():
+  print(repo.name)
