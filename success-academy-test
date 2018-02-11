@@ -1,4 +1,4 @@
-# Note: PyGithub (available at https://pypi.python.org/pypi/PyGithub) should be installed before running this program.
+# Note: PyGithub (available at https://pypi.python.org/pypi/PyGithub) should be installed before running this program in Python 2 or Python 3.
 
 from github import Github
 
